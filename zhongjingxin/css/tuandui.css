@@ -1,0 +1,348 @@
+
+header{
+    background: #FFFFFF!important;
+    border-bottom: 1px solid #e5e5e5;
+}
+@media (min-width: 1200px) {
+    .navbar-nav{
+        margin-left: 400px;
+    }
+}
+@media (min-width: 768px){
+    .navbar-nav>li+li {
+        margin-left: 2.1rem!important;
+    }
+}
+h3, h1, h2, h4, h5, h6, p, span, a {
+    font-family: "Microsoft YaHei";
+    color: #000000 !important;
+}
+
+.bg-primary {
+    background: #fff;
+}
+
+.mod-1 .container .navbar-nav li a {
+    color: #000;
+}
+
+.mod-1 .container .navbar-nav li a:hover {
+    color: #718d6f;
+}
+
+.mod-1 .container .navbar-nav li a:hover {
+    color: #718d6f;
+
+}
+
+.navbar-nav > li > :hover:after {
+    background: #0b4e52 !important;
+}
+
+.navbar-nav > li#ccc > :after {
+    background: #0b4e52 !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .bord {
+        width: 70px !important;
+        height: 1px;
+        background: #c0c0c0;
+        margin: 18px auto;
+    }
+
+    #con .div-h {
+        height: 500px !important;
+    }
+}
+
+ #con .div-h4, #con .erpai{
+    height: 730px !important;
+}
+
+#con .div-h{
+    height: 660px !important;
+}
+@media only screen and (min-width: 770px) {
+    .bord {
+        width: 70px !important;
+        height: 1px;
+        background: #c0c0c0;
+        margin: 18px 0!important;
+    }
+
+    #con1 .bord {
+        width: 70px !important;
+        height: 1px;
+        background: #c0c0c0;
+    }
+
+    #con p {
+        margin-top: 20px;
+        font-size: 15px;
+        max-width: 280px;
+        color: #666 !important;
+
+    }
+
+    #con .post {
+        height: 820px;
+        max-width: 330px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    #con1 p {
+        margin-top: 20px;
+        font-size: 15px;
+        max-width: 280px;
+        color: #666 !important;
+    }
+
+    #con1 .post {
+        height: 690px;
+        max-width: 290px;
+        border-bottom: 1px solid #cccccc;
+    }
+}
+
+#du {
+    margin-left: 120px
+}
+
+@media only screen and (min-width: 770px) and (max-width: 990px) {
+    #con .div-h4 {
+        height: 680px !important;
+    }
+    #con .zhangping{
+        height: 730px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #con1 {
+        margin-left: 230px
+    }
+
+    #con {
+        margin-left: 58px
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #con1 {
+        margin-left: 150px
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #con1 {
+        margin-left: 65px
+    }
+
+    #du {
+        margin-left: 0px
+    }
+
+    #con {
+        margin-left: 58px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #con1 {
+        margin-left: 0px
+    }
+
+    #du {
+        margin-left: 0px
+    }
+
+    #con {
+        margin-left: 0px
+    }
+}
+
+.well-1 h3 {
+    color: #000000;
+}
+
+#con h6 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#con p {
+    font-size: 14px !important;
+    margin-top: 15px;
+}
+
+#con p small {
+    display: inline-block;
+    font-size: 10px;
+    color: #718d6f !important;
+    margin-left: -15px;
+
+}
+
+#con .post {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#con1 .div-h, #con .div-h4 {
+    height: 650px;
+}
+
+#con1 h6 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.conter1 h3 {
+    padding: 20px 0 60px;
+    /*padding: 143px 0 60px;*/
+}
+
+#con1 p {
+    font-size: 14px;
+}
+
+#con1 p small {
+    display: inline-block;
+    font-size: 12px;
+    color: #718d6f;
+    margin-left: -15px;
+
+}
+#con>div{
+    /*margin-top: 120px;*/
+}
+#con1 .post {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*food*/
+.food-box {
+    color: #c8c8c8 !important;
+    background: #004d50;
+}
+
+.food-box .img99 {
+    padding: 110px 0;
+}
+
+.food-box span {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.food-box .div66 {
+    padding: 89px 0;
+    margin-left: -5%;
+}
+
+.food-box h1 {
+    text-align: left;
+    font-size: 16px;
+    color: #c8c8c8 !important;
+    padding: 50px 0 20px;
+}
+
+.food-box .bor {
+    float: left;
+    width: 1px;
+    background: #013a3c;
+    height: 178px;
+    margin-top: 60px;
+    margin-right: 15px;
+
+}
+
+.food-box .bor-r {
+    float: left;
+    width: 1px;
+    background: #013a3c;
+    height: 178px;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+.food-box p {
+    text-align: left;
+    font-size: 12px;
+    color: #c8c8c8 !important;
+}
+
+.food-box p.p2 {
+    padding: 10px;
+    line-height: 20px;
+    border-top: 1px solid #013a3c;
+    text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .food-box .bor-r, .food-box .bor {
+        display: none;
+    }
+
+    .food-box .div66 {
+        padding: 35px 0;
+        margin-left: 0%;
+    }
+    .dawei .p1{
+        margin-top: 42px !important;
+    }
+    .zhangchunyu .p1 {
+        margin-top:38px !important;
+
+    }
+
+    .row2 {
+        padding: 0 50px;
+    }
+
+    .food-box .img99 {
+        padding: 50px 0;
+    }
+
+    .food-box h1 {
+        padding: 0 0 20px;
+    }
+
+    .food-box .div55 {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .food-box .row p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .food-box .div66 {
+        padding: 35px 0;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .chunjing .p1 {
+        margin-top: 40px !important;
+    }
+}
+#du:hover{
+    background:none!important;
+}
+@media (min-width:1500px ) {
+    .conter1 h3{
+        padding: 6px 0 60px;
+    }
+}
+.post:hover img{
+    opacity:1;
+}

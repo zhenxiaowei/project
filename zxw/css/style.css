@@ -1,0 +1,148 @@
+*{ margin: 0; padding: 0; list-style: none;}
+.clearfix:after{clear:both; content:''; font-size:0; display:block; visibility:hidden; height:0}
+html,body{ height: 100%; overflow: hidden;}
+#box{ height: 100%; background: pink; transition:all 1s;}
+#box div[class^="page"]{ height: 100%;}
+.page1{ background:url(../images/bg1%20.jpg); color: #fff; font-family: "微软雅黑";}
+.page2{ background:url(../images/bg4.jpg);position: relative;}
+.page3{ background:url(../images/bg3.jpg);}
+.page4{ background:url(../images/bg7.jpg)}
+.page5{ background:url(../images/bg.jpg);}
+.go0{transform:translate3d(0,0,0);}/*表示的就是没有滚动的状态，就是位移为0*/
+.go1{transform:translate3d(0,-100%,0);}/*表示的就是滚动一次，显示第二屏，就是位移为-100%*/
+.go2{transform:translate3d(0,-200%,0);}/*表示的就是滚动二次，显示第三屏，就是位移为-200%*/
+.go3{transform:translate3d(0,-300%,0);}/*表示的就是滚动三次，显示第四屏，就是位移为-300%*/
+.go4{transform:translate3d(0,-400%,0);}/*表示的就是滚动四次，显示第五屏，就是位移为-400%*/
+.circle{ width: 70px;position: fixed; right: 2%; top: 50%; transform:translate3d(0,-50%,0);}
+.circle li{ height: 21px; background: url(../images/dot.png) no-repeat 50px 5px;margin: 3px 0; font-size: 12px; color: #fff; line-height: 21px;}
+.circle .current{ background-position: 45px bottom;}
+/*music*/
+audio{ position:absolute; left:0;top:0;}
+/*nav部分*/
+.nav{ width:700px; height:32px; padding-top:20px; margin-left:500px;}
+.nav li{float:left; width:100px; height:32px;  text-align:center;}
+.nav li a{float:left; width:80px; height:29px; text-decoration:none; margin-left:12px; color:#fff;}
+.nav li a:hover{width:80px; height:29px; border-bottom:3px solid #BB2200;}
+.nav .current {background:none;float:left; width:100px; height:32px; }
+.nav .current .cur{color:#BB2200; border-bottom:3px solid #BB2200; width:80px; height:29px;}
+.page1 img{ position: absolute;}
+.p1{animation:6s pp infinite; top:100px;left:50%; margin-leftafa: -500px;}
+@keyframes pp{0%{left:40%;} 50%{left:60%;} 100%{left:40%;}}
+.page1 .txt{width:300px; padding-top:150px; padding-left:120px;}
+/*第三屏*/
+.intruduce{width:800px;height:600px; margin:0 auto;}
+.intruduce .left{ float:left; width:265px; height:600px;}
+.intruduce .left img{ width: 150px; border-radius: 50%; transition:all 1s; margin:40px 20px 0;}
+.intruduce .left img:hover{ transform:rotate(720deg);}
+.intruduce .right{ float:right; width:530px; height:600px;}
+.intruduce .right .title{height:30px; border-bottom:3px dotted #99F; margin-top:40px; color:#333;}
+.intruduce .right .inform{height:500px;}
+.inform li{height:55px; line-height:55px; color:#666;}
+.inform li p{width:180px; float:left;}
+.inform li span{ display:block;width:130px; float:left;}
+/*第四屏幕*/
+.outer{ margin:0 auto; padding:150px 150px 0; width:1100px;}
+.skill{ padding-top:50px; width:220px; float:left;}
+.skill .box{ width: 200px; height: 200px;position: relative; margin-left:50px;}
+.skill .box1,.box2{ width: 200px; height: 200px; position: absolute; left: 0;top: 0; backface-visibility:hidden; transition: all 1s;}
+.skill .box1{background:url(../images/design.png);}
+.skill .box2{background:url(../images/banner12.png);transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill .box:hover .box1{transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill .box:hover .box2{transform:rotateX(0) rotateY(0) rotateZ(0);}
+.skill .txt{height:150px;width:140px; text-align:center; padding-left:80px; color:#666;}
+.skill .txt p{ height:35px; line-height:45px; border-bottom:2px dotted #FCF;}
+.skill .txt p a{ text-decoration:none; color:#666;}
+.skill .txt p a:hover{color:#903;}
+.skill1{ padding-top:50px; padding-left:150px; width:220px; float:left;}
+.skill1 .box{ width: 200px; height: 200px;position: relative; margin-left:50px;}
+.skill1 .box1,.box2{ width: 200px; height: 200px; position: absolute; left: 0;top: 0; backface-visibility:hidden; transition: all 1s;}
+.skill1 .box1{background:url(../images/code.png);}
+.skill1 .box2{background:url(../images/banner2.png);transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill1 .box:hover .box1{transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill1 .box:hover .box2{transform:rotateX(0) rotateY(0) rotateZ(0);}
+.skill1 .txt{height:150px;width:140px; text-align:center; padding-left:80px; color:#666;}
+.skill1 .txt p{ height:35px; line-height:45px; border-bottom:2px dotted #FCF;}
+.skill1 .txt p a{ text-decoration:none; color:#666;}
+.skill1 .txt p a:hover{color:#903;}
+.skill2{ padding-top:50px; padding-left:150px; width:220px; float:left;}
+.skill2 .box{ width: 200px; height: 200px;position: relative; margin-left:50px;}
+.skill2 .box1,.box2{ width: 200px; height: 200px; position: absolute; left: 0;top: 0; backface-visibility:hidden; transition: all 1s;}
+.skill2 .box1{background:url(../images/hotline.png);}
+.skill2 .box2{background:url(../images/banner3.png);transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill2 .box:hover .box1{transform:rotateX(0) rotateY(180deg) rotateZ(0);}
+.skill2 .box:hover .box2{transform:rotateX(0) rotateY(0) rotateZ(0);}
+.skill2 .txt{height:150px;width:140px; text-align:center; padding-left:80px; color:#666;}
+.skill2 .txt p{ height:35px; line-height:45px; border-bottom:2px dotted #FCF;}
+.skill2 .txt p a{ text-decoration:none; color:#666;}
+.skill2 .txt p a:hover{color:#903;}
+/*第五屏幕*/
+.page4 .cont{width:1400px; height:600px; margin:0 auto;}
+.cont .top{width:800px; height:300px; padding-left:212px;}
+.top ul{width:500px;height:300px;margin:0 auto;position: relative;transform-style:preserve-3d;        transition: all 1s;}
+/* ul:hover{
+	transform:rotateX(360deg);
+} */
+.top ul	li{color:#fff;width:500px;height:300px;text-align:center;font:normal 80px/200px '微软雅黑';
+           top:0;left:0;position:absolute;}
+.top ul li:nth-child(1){background:url(../images/lunbo1.png) 0 0 no-repeat;
+						transform: rotateX(0deg) translateZ(150px);}
+.top ul li:nth-child(2){background:url(../images/lunbo2.png) 0 0 no-repeat;
+	transform: rotateX(90deg) translateZ(150px);}
+.top ul li:nth-child(3){background:url(../images/lunbo3.png) 0 0 no-repeat;
+		transform: rotateX(180deg) translateZ(150px);}
+.top ul li:nth-child(4){background:url(../images/lunbo4.png) 0 0 no-repeat;
+		transform: rotateX(270deg) translateZ(150px);}
+.cont{ position:relative;}
+.top .btn{width:600px;position:absolute;left:320px;top:150px;}
+.top span{color:darkred;float:left;width:50px;height:50px;cursor:pointer;
+         font:bold 40px/50px '微软雅黑';}
+.top span:nth-child(2){float:right;}
+.cont .bottom{width:1120px; height:290px; padding-top:100px; margin:0 auto;}
+.bottom ul{width:1120px; height:260px; overflow:hidden;}
+.bottom ul li{width:260px; margin-right:20px; height:260px; float:left;position:relative;}
+.bottom ul li div {position:absolute; left:0; bottom:-0px; width: 260px; height: 25px; 
+	background: #000;}
+.bottom ul li p { position:absolute; left:0; bottom:-0px; color: #fff; padding: 0 0 0 35px; 
+	width: 143px; height: 25px; line-height: 25px;}
+			
+/*第二屏幕*/
+.content{transition:all 0.4s ease; -webkit-transition:all 0.4s ease;
+         -moz-transition:all 0.4s ease;-o-transition:all 0.4s ease;}
+.content{width: 1000px;height: 400px;margin:0 auto;position: relative; top:100px;}
+.content img{position: absolute; opacity: 0;}/*默认图片都是透明的*/
+.content.cur img{*opacity: 1; _opacity: 1;+opacity: 1;}
+.content img.no1{top: 100px;left: 0px;}
+.content img.no2{top: 122px;left: 54px;}
+.content img.no3{top: 92px;left: 247px;}
+.content img.no4{top: 123px;left: 490px;}
+.content img.no5{top: 65px;left: 762px;}
+.content.cur img.no1{animation:xianshi 1s ease 0s forwards;
+			-webkit-animation:xianshi 1s ease 0s forwards;
+            -moz-animation:xianshi 1s ease 0s forwards;
+            -ms-animation:xianshi 1s ease 0s forwards;
+            -o-animation:xianshi 1s ease 0s forwards;}
+.content.cur img.no2{animation:xianshi 1s ease 0.8s forwards;
+            -webkit-animation:xianshi 1s ease 0.8s forwards;
+            -moz-animation:xianshi 1s ease 0.8s forwards;
+            -ms-animation:xianshi 1s ease 0.8s forwards;
+            -o-animation:xianshi 1s ease 0.8s forwards; }
+.content.cur img.no3{animation:xianshi 1s ease 1.6s forwards;
+            -webkit-animation:xianshi 1s ease 1.6s forwards;
+            -moz-animation:xianshi 1s ease 1.6s forwards;
+            -ms-animation:xianshi 1s ease 1.6s forwards;
+            -o-animation:xianshi 1s ease 1.6s forwards;}
+.content.cur img.no4{animation:xianshi 1s ease 2.4s forwards;
+            -webkit-animation:xianshi 1s ease 2.4s forwards;
+            -moz-animation:xianshi 1s ease 2.4s forwards;
+            -ms-animation:xianshi 1s ease 2.4s forwards;
+            -o-animation:xianshi 1s ease 2.4s forwards;}
+.content.cur img.no5{animation:xianshi 1s ease 3.0s forwards;
+            -webkit-animation:xianshi 1s ease 3.0s forwards;
+            -moz-animation:xianshi 1s ease 3.0s forwards;
+            -ms-animation:xianshi 1s ease 3.0s forwards;
+            -o-animation:xianshi 1s ease 3.0s forwards;}
+@keyframes xianshi{from{opacity: 0;} to{opacity: 1;}}
+@-webkit-keyframes xianshi{from{opacity: 0;} to{opacity: 1;}}
+@-moz-keyframes xianshi{from{opacity: 0;} to{opacity: 1;}}
+@-ms-keyframes xianshi{from{opacity: 0;} to{ opacity: 1;}}
+@-o-keyframes xianshi{from{opacity: 0;} to{opacity: 1;}}

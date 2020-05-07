@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+	<style type="text/css">
+      .content{ 
+            transition:all 0.4s ease;
+            -webkit-transition:all 0.4s ease;
+            -moz-transition:all 0.4s ease;
+            -o-transition:all 0.4s ease;
+        }
+        .content{
+            width: 1000px;
+            height: 400px;
+            margin:0 auto;
+            position: relative;
+        }
+        .content img{
+            position: absolute;
+            /*默认图片都是透明的*/
+            opacity: 0;
+        }
+        .content.cur img{
+            *opacity: 1;
+            _opacity: 1;
+            +opacity: 1;
+        }
+        .content img.no1{
+            top: 100px;
+            left: 0px;
+        }
+        .content img.no2{
+            top: 122px;
+            left: 54px;
+        }
+        .content img.no3{
+            top: 92px;
+            left: 247px;
+        }
+        .content img.no4{
+            top: 123px;
+            left: 490px;
+
+        }
+        .content img.no5{
+            top: 65px;
+            left: 762px;
+        }
+        .content.cur img.no1{
+            animation:xianshi 1s ease 0s forwards;
+            -webkit-animation:xianshi 1s ease 0s forwards;
+            -moz-animation:xianshi 1s ease 0s forwards;
+            -ms-animation:xianshi 1s ease 0s forwards;
+            -o-animation:xianshi 1s ease 0s forwards;
+        }
+        .content.cur img.no2{
+            animation:xianshi 1s ease 0.8s forwards;
+            -webkit-animation:xianshi 1s ease 0.8s forwards;
+            -moz-animation:xianshi 1s ease 0.8s forwards;
+            -ms-animation:xianshi 1s ease 0.8s forwards;
+            -o-animation:xianshi 1s ease 0.8s forwards;
+        }
+        .content.cur img.no3{
+            animation:xianshi 1s ease 1.6s forwards;
+            -webkit-animation:xianshi 1s ease 1.6s forwards;
+            -moz-animation:xianshi 1s ease 1.6s forwards;
+            -ms-animation:xianshi 1s ease 1.6s forwards;
+            -o-animation:xianshi 1s ease 1.6s forwards;
+        }
+        .content.cur img.no4{
+            animation:xianshi 1s ease 2.4s forwards;
+            -webkit-animation:xianshi 1s ease 2.4s forwards;
+            -moz-animation:xianshi 1s ease 2.4s forwards;
+            -ms-animation:xianshi 1s ease 2.4s forwards;
+            -o-animation:xianshi 1s ease 2.4s forwards;
+        }
+        .content.cur img.no5{
+            animation:xianshi 1s ease 3.0s forwards;
+            -webkit-animation:xianshi 1s ease 3.0s forwards;
+            -moz-animation:xianshi 1s ease 3.0s forwards;
+            -ms-animation:xianshi 1s ease 3.0s forwards;
+            -o-animation:xianshi 1s ease 3.0s forwards;
+        }
+        @keyframes xianshi{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @-webkit-keyframes xianshi{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @-moz-keyframes xianshi{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @-ms-keyframes xianshi{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @-o-keyframes xianshi{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+    </style> 
+</head>
+<body>
+	<audio autoplay controls loop>
+		<source src="medio/Sarah Connor-Every Moment Of My Life.mp3"></source>
+	</audio>
+	<div id="box">
+		<div class="page1">
+			<ul class="nav">
+            	<li  class="current"><a href="javascript:;"  class="cur">首页</a></li>
+				<li><a href="javascript:;">常用软件</a></li>
+            	<li><a href="javascript:;">简介</a></li>
+            	<li><a href="javascript:;">技能</a></li>
+            	<li><a href="javascript:;">作品</a></li>
+            	<li><a href="javascript:;">联系</a></li>
+            </ul>
+             <img src="images/pc.png" class="p1">
+           	<div class="txt">
+            	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端是最贴近用户的程序员，比后端、数据库、产品经理、运营、安全都近。前端的能力就是让产品从90分进化到100分，甚至更好。</p>
+            	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息化是以现代通信、网络、数据库技术为基础，对所研究对象各要素汇总至数
+                据库，供特定人群生活、工作、学习、辅助决策等和人类息息相关的各种行为相结合的一种技术，使用该技术后，可以极大的提高各种行为的效率，为推动人类社会进步提供极大的技术支持。</p>
+            </div>
+		</div>
+		<div class="page2">
+			<div class="content">
+                <img class="no1" src="images/1.png" alt="">
+                <img class="no2" src="images/2.png" alt="">
+                <img class="no3" src="images/3.png" alt="">
+                <img class="no4" src="images/4.png" alt="">
+                <img class="no5" src="images/5.png" alt="">
+            </div>
+        	
+		</div>
+		<div class="page3">
+		<div class="intruduce">
+            	<div class="left">
+                	<img src="images/zhaopian.png"/>
+                </div>
+                <div class="right">
+                	<h2 class="title">About me</h2>
+                    <ul class="inform">
+                    	<li>
+                        	<p>Name</p>
+                            <span>GengMin</span>
+                        </li>
+                    	<li>
+                        	<p>Date of birth</p>
+                            <span>May,27 1992</span>
+                        </li>
+                    	<li>
+                        	<p>Address</p>
+                            <span>BeiJing</span>
+                        </li>
+                    	<li>
+                        	<p>Email</p>
+                            <span>15801135371@163.com</span>
+                        </li>
+                        <li>
+                        	<p>Phone</p>
+                            <span>15801135371</span>
+                        </li>
+                        <li>
+                        	<p>Politics Status</p>
+                            <span>Party Member</span>
+                        </li>
+                        <li>
+                        	<p>Education</p>
+                            <span>university degree</span>
+                        </li>
+                        <li>
+                        	<p>Seeking jobs</p>
+                            <span>fore-end</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        	
+        </div>
+		<div class="page4">
+        	<div class="cont">
+                <div class="top">
+                	 <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+   					 </ul>
+                    <div class="btn">
+                        <span class="l">&lt;</span>
+                        <span class="r">&gt;</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                	<ul>
+                    	<li>
+                        	<img src="images/wangye4.png" width="260" height="260" />
+                			<div></div>
+                			<p>平时空闲仿奇瑞站</p>
+                        </li>    
+                    	<li>
+                        	<img src="images/wangye3.png" width="260" height="260"/>
+                			<div></div>
+                			<p>天下美食站</p>
+                        </li>    
+                    	<li>
+                        	<img src="images/wangye5.png" width="260" height="260"/>
+                			<div></div>
+                			<p>自创海尔站</p>
+                        </li>    
+                    	<li>
+                        	<img src="images/wangye2.png" width="260" height="260"/>
+                			<div></div>
+                			<p>福莱盟信息技术有限公司</p>
+                        </li>       
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div class="page5">
+			<div class="skill">
+                <div class="box">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+                <div class="txt">
+               		<p><a href="#">平面设计</a></p>
+                    <p><a href="#">网页设计</a></p>
+                    <p><a href="#">UI设计</a></p>
+                </div>
+            </div> 
+            <div class="skill1">
+                <div class="box">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+                <div class="txt">
+               		<p><a href="#">HTML CSS</a></p>
+                    <p><a href="#">HTML5 CSS3</a></p>
+                    <p><a href="#">Js JQUERY</a></p>
+                </div>
+            </div>      
+     	     <div class="skill2">
+                <div class="box">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                </div>
+                <div class="txt">
+               		<p><a href="#">徽都药业</a></p>
+                    <p><a href="#">新安旅游</a></p>
+                    <p><a href="#">众鹏厨具</a></p>
+                </div>
+            </div>      
+        </div>
+	</div>
+	<div class="circle">
+		<ul>
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>

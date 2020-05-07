@@ -1,0 +1,40 @@
+*{ margin: 0; padding: 0; list-style: none;}
+html,body{ height: 100%; overflow: hidden;}
+#box{ height: 100%; background: pink; transition:all 1s;}
+#box div[class^="page"]{ height: 100%;}
+.page1{ background:url(../images/bg1%20.jpg); color: #fff; font-family: "微软雅黑";}
+.page2{ background:url(../images/bg4.jpg);position: relative;}
+.page3{ background:url(../images/bg3.jpg);}
+.page4{ background:url(../images/bg7.jpg)}
+.page5{ background:url(../images/bg.jpg);}
+.go0{transform:translate3d(0,0,0);}/*表示的就是没有滚动的状态，就是位移为0*/
+.go1{transform:translate3d(0,-100%,0);}/*表示的就是滚动一次，显示第二屏，就是位移为-100%*/
+.go2{transform:translate3d(0,-200%,0);}/*表示的就是滚动二次，显示第三屏，就是位移为-200%*/
+.go3{transform:translate3d(0,-300%,0);}/*表示的就是滚动三次，显示第四屏，就是位移为-300%*/
+.go4{transform:translate3d(0,-400%,0);}/*表示的就是滚动四次，显示第五屏，就是位移为-400%*/
+.circle{ width: 70px;position: fixed; right: 2%; top: 50%; transform:translate3d(0,-50%,0);}
+.circle li{ height: 21px; background: url(../images/dot.png) no-repeat 50px 5px;margin: 3px 0; font-size: 12px; color: #fff; line-height: 21px;}
+.circle .current{ background-position: 45px bottom;}
+/*music*/
+audio{ position:absolute; left:0;top:0;}
+/*nav部分*/
+.nav{ width:700px; height:32px;font-weight:bold; padding-top:20px; margin-left:500px;}
+.nav li{float:left; width:100px; height:32px;  text-align:center;}
+.nav li a{float:left; width:80px; height:29px; text-decoration:none; margin-left:12px; color:#fff;}
+.nav li a:hover{width:80px; height:29px; border-bottom:3px solid #BB2200;}
+.nav .current {background:none;float:left; width:100px; height:32px; }
+.nav .current .cur{color:#BB2200; border-bottom:3px solid #BB2200; width:80px; height:29px;}
+.page1 img{ position: absolute;}
+.p1{animation:6s pp infinite; top:100px;left:50%; margin-leftafa: -500px;}
+	@keyframes pp{
+
+		0%{
+			left:40%; 
+		}
+		50%{
+			left:60%;
+		}
+		100%{
+			left:40%;
+		}
+	}

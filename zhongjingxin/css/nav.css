@@ -1,0 +1,115 @@
+/*nav*/
+@media (min-width: 1200px) {
+    .navbar-nav {
+        margin-left: 465px;
+        font-size: 16px!important;
+    }
+}
+
+.navbar-nav>li:hover>a:after, .navbar-nav>li:hover>a:after{
+    background:none!important;
+    color: transparent;
+
+}
+.mod-1 .container .navbar-nav li a {
+    color: #fff;
+}
+.bg-primary .owl-nav .owl-next, .bg-primary .owl-nav .owl-prev {
+    color: #000000;
+}
+.navbar-nav > li > a:after {
+    background:none !important;
+
+}
+.navbar-nav li a.active{
+    color:#004d50!important;
+}
+@media screen and (min-width: 768px) and(max-width: 1200px){
+    .navbar-nav {
+        margin: 18px 0 0;
+        font-family: Montserrat, sans-serif;
+        line-height: 2.27777778rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: .02em;
+        font-size: 16px!important;
+    }
+    .navbar-nav li{
+        padding-left: 0px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1320px){
+    .navbar-nav{
+        margin: 1rem 0 0 15rem;
+    }
+    .navbar-nav li{
+        padding-left: 0px!important;
+    }
+
+}
+.navbar {
+    border-bottom: 1px solid #CCCCCC;
+}
+.navbar-nav>li+li{
+margin-left:2.52rem!important;
+}
+.navbar {
+    height:70px!important;
+    background: #ffffff;
+    line-height: 65px!important;
+}
+.navbar-nav li{
+    padding-left: 30px;
+}
+.page  .logo {
+    max-width: 85px;
+    width: 100%;
+}
+
+@keyframes shake {
+    0%{
+        transform: rotateY(90deg);
+        -webkit-transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+    }
+
+}
+@-webkit-keyframes shake {
+    0%{
+        transform: rotateY(90deg);
+        -webkit-transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+    }
+
+}
+.navbar-center li a span {
+    display: block;
+    height:3px;
+    width:100%;
+    margin-top: 10px;
+    transform: rotateY(90deg);
+    background: #004d50;
+}
+.navbar-center li a.active span {
+    display: block;
+    height:3px;
+    width:100%;
+    transform: rotateY(0deg);
+    background: #004d50;
+}
+.navbar-center li a.active span{
+    transform: rotateY(0deg);
+}
+.navbar-center li a:hover span {
+    animation: 0.4s shake;
+    -webkit-animation: 0.4s shake;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #004d50;
+}

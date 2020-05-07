@@ -1,0 +1,21 @@
+[
+  {
+    "type":"建模仿真软件",
+    "id": 1,
+    "title": "03产品与服务_目特_HLA雷达数字系统仿真平台",
+    "introduce": "03产品与服务_目特03产品与服务_目特_HLA雷达数字系统仿真平台03产品与服务_目特_HLA雷达数字系统仿真平台_HLA雷达数字系统仿真平台",
+    "url1": "/static/img/home/home_product1.png",
+    "url2": "/static/img/product/product_img1.png",
+    "describe": "<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\">多源融合智能区域警戒系统</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">可应用于国界边防、机场、电站、重要场所围界、军事基地围界、敏感卡口等复杂场景、空旷场所或具有高安防价值的重要场所。</p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>系统概述：</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">通过多源融合，实现对监测区域360度全方位监控，并对区域内目标进行跟踪、抓拍、识别，实现对全区域实时监控预警。</p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>系统组成：</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">系统分为数据采集系统和系统显控终端两大部分，数据采集系统部分由TOF三维传感器、光电系统（摄像机）、视频编码器、网络交换机组成</p><p style=\"text-align: left;\"><br/></p>"
+  },
+  {
+    "type": "建模仿真软件",
+    "id": 2,
+    "title": "03产品与服务_目特_HLA雷达数字系统仿真平台",
+    "introduce": "03产品与服务_目特_HLA雷达数字系统仿真平台",
+    "url1": "/static/img/home/home_product3.png",
+    "url2": "/static/img/product/product_img2.png",
+    "describe": "<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\">多源融合智能区域警戒系统</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">可应用于国界边防、机场、电站、重要场所围界、军事基地围界、敏感卡口等复杂场景、空旷场所或具有高安防价值的重要场所。</p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>系统概述：</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">通过多源融合，实现对监测区域360度全方位监控，并对区域内目标进行跟踪、抓拍、识别，实现对全区域实时监控预警。</p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 22px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>系统组成：</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px; line-height: 30px;\">系统分为数据采集系统和系统显控终端两大部分，数据采集系统部分由TOF三维传感器、光电系统（摄像机）、视频编码器、网络交换机组成</p><p style=\"text-align: left;\"><br/></p>"
+
+  }
+]

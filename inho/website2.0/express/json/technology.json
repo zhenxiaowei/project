@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "建模仿真",
+    "describe": "Modeling And Simulation",
+    "briefintroduction": "通过对红外或电磁条件下的特殊目标建模计算，真实再现目标红外或电磁图像，为关产品论证、研发、训练提供数据支持。",
+    "url": "/static/img/home/home_techicon3.png",
+    "detailed": "<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 18px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>雷达系统建模仿真</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px;\">基于仿真模型和数据库进行雷达系统的分布式建模仿真，真实反映目标与电磁散射特性在雷达传感器的响应。以信号为纽带实现反导预警雷达系统对不同目标的搜索、拦截、跟踪、识别和制导等过程的动态仿真。</p><p><img src=\"http://localhost:8888/static/img/technology/tech08.png\" alt=\"\"/></p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 18px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>红外目标建模仿真</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px;\">针对仿真对象真实参数，结合对目标运动特性的计算结果，对目标和周围环境进行红外计算和仿真，并给出结合探测器响应参数，真实再现红外镜头中的三维场景红外图像。</p><p><img src=\"http://localhost:8888/static/img/technology/tech1.png\" alt=\"\"/></p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 18px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>雷达数据处理</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px;\">雷达数据处理是对雷达获取的目标及环境的电磁散射特性数据进行处理，得到目标及环境的RCS值以及相关曲线图，并识别目标。雷达获取的数据具有数据量大、处理复杂的问题，公司对现有算法进行优化，实现了对雷达反射截面数据高速、有效的分析处理。</p><p><img src=\"http://localhost:8888/static/img/technology/tech_03.png\" alt=\"\"/></p><p><img src=\"http://localhost:8888/static/img/technology/tech_04.png\" alt=\"\"/></p><p><br/></p>"
+  },
+  {
+    "id": 2,
+    "name": "多源数据融合",
+    "describe": "Multisource Data Fusion",
+    "briefintroduction": "基于多源探测数据，利用人工智能算法融合分析处理，真正实现“事前预警、事中响应、事后反馈”的立体化联动分析，打通数据壁垒，构建智慧安防。",
+    "url": "/static/img/home/home_techicon1.png",
+    "detailed": "<h2 style=\"box-sizing: border-box; font-family: 微软雅黑, &quot;Microsoft Yahei&quot;, tahoma, arial, &quot;Hiragino Sans GB&quot;; font-weight: 500; line-height: 50px; color: rgb(51, 51, 51); margin: 0px; font-size: 18px; padding: 0px; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>多源数据融合</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(133, 136, 142); text-indent: 20px; font-family: 微软雅黑, &quot;Microsoft Yahei&quot;, tahoma, arial, &quot;Hiragino Sans GB&quot;; white-space: normal; background-color: rgb(255, 255, 255);\">通过TOF传感器、微波雷达、光电系统的数据融合，实现对监控区域目标信息的立体化、多维感知，实现准确、可靠的安防监控。</p><p><img src=\"http://localhost:8888/static/img/technology/duoyuan.png\" alt=\"\"/></p><p><br/></p>"
+  },
+  {
+    "id": 3,
+    "name": "智能感知",
+    "describe": "Intelligent Perception",
+    "briefintroduction": "基于计算机视觉、机器学习等人工智能手段，使用优化的目标检测识别算法，实现对道路、桥梁等检测以及对车辆、人员等动目标的跟踪识别。",
+    "url": "/static/img/home/home_techicon2.png",
+    "detailed": "<h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 18px; padding: 0px; text-align: left;\">目标识别</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px;\">基于深度学习方法，将优化的目标检测、识别算法广泛的应用于道路、桥梁、障碍物等目标的检测和人员、车辆、动物等动目标的跟踪、识别。</p><p><img src=\"http://localhost:8888/static/img/technology/tech01.png\" alt=\"\"/>&nbsp; &nbsp;<img src=\"http://localhost:8888/static/img/technology/tech02.png\" alt=\"\"/></p><h2 style=\"box-sizing: border-box; font-family: inherit; font-weight: 500; line-height: 50px; color: inherit; margin: 0px; font-size: 18px; padding: 0px; text-align: left;\"><span style=\"box-sizing: border-box; display: inline-block; border: 5px solid rgb(1, 208, 140); border-radius: 50%; margin-right: 10px;\"></span>图像处理</h2><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: left; color: rgb(133, 136, 142); font-size: 16px; text-indent: 20px;\">通过对图像进行去除噪声、增强、复原、分割、提取特征等处理，增强图像的质量，广泛应用于消除复杂天气条件对光学成像的影响，如去雾处理等。</p><p><img src=\"http://localhost:8888/static/img/technology/tech03.png\" alt=\"\"/>&nbsp; &nbsp;<img src=\"http://localhost:8888/static/img/technology/tech04.png\" alt=\"\"/></p><p><br/></p>"
+  }
+]

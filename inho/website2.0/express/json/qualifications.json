@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "url": "/static/img/about/1.jpg"
+  },
+    {
+      "id": 2,
+      "url": "/static/img/about/2.jpg"
+    },
+        {
+          "id": 3,
+          "url": "/static/img/about/3.jpg"
+        },
+                {
+                  "id": 4,
+                  "url": "/static/img/about/4.jpg"
+                },
+                        {
+                          "id": 5,
+                          "url": "/static/img/about/5.jpg"
+                        },
+                                {
+                                  "id": 6,
+                                  "url": "/static/img/about/6.jpg"
+                                },
+                                        {
+                                          "id": 7,
+                                          "url": "/static/img/about/7.jpg"
+                                        },
+                                                {
+                                                  "id": 8,
+                                                  "url": "/static/img/about/8.jpg"
+                                                },
+                                                        {
+                                                          "id": 9,
+                                                          "url": "/static/img/about/9.jpg"
+                                                        },
+                                                                {
+                                                                  "id": 10,
+                                                                  "url": "/static/img/about/10.jpg"
+                                                                }
+
+]
